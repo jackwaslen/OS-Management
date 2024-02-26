@@ -1,12 +1,7 @@
 /*
+ File: thread_managment.c 
  -------------------------------------
- Assignment 4
- File: resource_managment.c 
- -------------------------------------
- Author:  Connor Doidge and Jack Waslen
- ID:      210279850 and 210468930
- Email:   doid9850@mylaurier.ca and wasl8390@mylaurier.ca
- Version  2023-11-11
+ Author:  Jack Waslen
  -------------------------------------
  */
 
