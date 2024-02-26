@@ -1,13 +1,7 @@
-
 /*
+ File: Process_Management.c
  -------------------------------------
- Assignment 2
- File: Collatz_sequence.c
- -------------------------------------
- Author:  Connor Doidge and Jack Waslen
- ID:      210279850 and 210468930
- Email:   doid9850@mylaurier.ca and wasl8390@mylaurier.ca
- Version  2023-10-17
+ Author: Jack Waslen
  -------------------------------------
  */
 
@@ -26,7 +20,7 @@
 
 int childProcess(int bufferSize, const char *memName){
     // 1. Establish the shared memory object
-    // 2. Output contents of shard memory
+    // 2. Output contents of shared memory
     // 3, Remove shared memory
     // 4. Program exits when all sequences equal to start_numbers printed on console
     char *shared_mem_base;
@@ -113,14 +107,8 @@ int parentProcess(int number){
 
     ptr += sprintf(ptr, "%d ", number);
 
-
-    //printf("%d ", number);
     }
-   
-    //printf("\n");
-   
 
-    
 
     return 0;
 
