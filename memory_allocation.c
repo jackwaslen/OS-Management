@@ -1,3 +1,9 @@
+ /*
+ File: memory_allocation.c 
+ -------------------------------------
+ Author: Jack Waslen
+ -------------------------------------
+ */
 
 #include <sys/mman.h>
 #include <sys/stat.h>       
