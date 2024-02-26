@@ -47,7 +47,7 @@ void* thread_function(void* THREAD_NUMBER){
     if(pthread_mutex_lock(&lock) == 0){
        // printf("Lock is : %d, decreasing count\n",0);
         result = decrease_count(thread, 1);
-       // printf("Result is %d\n", result);
+
         pthread_mutex_unlock(&lock);
     }
 
@@ -57,14 +57,12 @@ void* thread_function(void* THREAD_NUMBER){
        
         sleep(1);
         if (pthread_mutex_lock(&lock) == 0){
-            //printf("Lock is : %d, increasing count\n",0);
+         
            
             increase_count(thread, 1);
             pthread_mutex_unlock(&lock);
         }
-       // pthread_mutex_lock(&lock);
-   
-        //pthread_mutex_unlock(&lock);
+
 
     } else {
         printf("Thread %d could not acquire enough resources.\n",thread);
@@ -76,9 +74,9 @@ void* thread_function(void* THREAD_NUMBER){
 int main(){
     // call function void* thread_function (THREAD_NUMBER)
    // invokes decrease count, if succeeded in request, sleep for 1 second otherwise
-   // print "Thread NUMBER could not acquire enough resources"
+
    // after 1s thread returns resources by calling increase_count
-   //pthread_mutex_init(&lock, NULL);
+
    int threadCount = 0;
    pthread_t *threadArray;
    threadArray = malloc(100 * sizeof(*threadArray));
