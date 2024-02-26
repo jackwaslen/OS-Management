@@ -4,5 +4,5 @@ This is some work I've done with Operating Systems. I use C in combination with 
 **Jack Waslen**
 
 - [Profile](https://github.com/jackwaslen "Jack Waslen")
-- [Email](mailto:jackwaslen16@gmail.com)
+- [Email](mailto:jackwaslen16@gmail.com?subject=Hi% "Hi!")
 - [Website](https://www.linkedin.com/in/jack-waslen-4ab873223/ "Welcome")
