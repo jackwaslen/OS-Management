@@ -1,5 +1,5 @@
 /*
- File: thread_managmen.c 
+ File: thread_coordination.c 
  -------------------------------------
  Author:  Jack Waslen
  -------------------------------------
