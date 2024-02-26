@@ -1,5 +1,5 @@
 /*
- File: thread_managment.c 
+ File: thread_managmen.c 
  -------------------------------------
  Author:  Jack Waslen
  -------------------------------------
