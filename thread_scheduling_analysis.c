@@ -1,12 +1,7 @@
  /*
+ File: thread_scheduling_analysis.c
  -------------------------------------
- Assignment 3
- File: fcfs.c
- -------------------------------------
- Author:  Connor Doidge and Jack Waslen
- ID:      210279850 and 210468930
- Email:   doid9850@mylaurier.ca and wasl8390@mylaurier.ca
- Version  2023-11-03
+ Author:  Jack Waslen
  -------------------------------------
  */
 
